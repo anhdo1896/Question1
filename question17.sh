@@ -12,7 +12,7 @@ touch newfile1
 git add .
 git commit -m "newfile1"
 git checkout branch2
-mv dir1/dir2/foo dir1/foo_modified
+mv dir1/dir2/foo dir1/dir2/foo_modified
 mv dir3/ dir1/
 rm dir1/dir3/bar
 touch dir1/dir3/newfile2
