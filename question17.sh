@@ -1,4 +1,3 @@
-git clone https://github.com/ian-knight-uofa/git-practice-03.git
 git branch branch1
 git branch branch2
 git checkout main
