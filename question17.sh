@@ -2,6 +2,7 @@ git clone https://github.com/ian-knight-uofa/git-practice-03.git
 cd git-practice-03/
 git branch branch1
 git branch branch2
+git checkout main
 cp dir3/bar dir3/bar_copy
 git add .
 git commit -m "bar_copy"
