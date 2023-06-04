@@ -1,7 +1,8 @@
 git clone https://github.com/ian-knight-uofa/git-practice-04.git
+cd git-practice-04
 git branch -a
 
-for branch in $(git branch -r | grep 'ready'(;do
+for branch in $(git branch -r | grep 'ready'); do
 	git branch ${branch#origin/} $branch
 done
 
